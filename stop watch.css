@@ -1,0 +1,84 @@
+ /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #d5f0c7;
+    
+}
+
+
+
+.stopwatch {
+    background:rgb(230, 188, 125);
+    color:green;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+h1{
+    color: rgb(96, 172, 218);
+}
+
+.time-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background:rgb(164, 11, 164);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #710202;
+}
+
+button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+.laps {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.laps h3 {
+    margin-bottom: 10px;
+    color: green;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.laps ul li {
+    background: #f4c9c9;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
